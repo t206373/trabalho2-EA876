@@ -86,7 +86,7 @@ int main() {
     	if(p[0] != 0 && p[1] != 0 && p[2] != 0){
     		waitpid(p[0], NULL, 0);
     		waitpid(p[1], NULL, 0);
-  		waitpid(p[2], NULL, 0);
+  			waitpid(p[2], NULL, 0);
   		for (a=0; a < x*y; a++){ //Passa da nova matriz para a matriz da imagem
   			img.r[a]=shared_r[a];
   			img.g[a]=shared_g[a];
