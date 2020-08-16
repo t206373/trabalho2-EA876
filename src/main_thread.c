@@ -74,7 +74,7 @@ int main (){
 	
 	//Abre imagem 
 	imagem img;
- 	img = abrir_imagem("data/liljoker.jpg");
+ 	img = abrir_imagem("data/joker.jpg");
 	
 	//Set de alguns variaveis de auxilio
 	int a;
@@ -114,7 +114,7 @@ int main (){
     
 	
 	//Libera a imagem com blur
-	salvar_imagem("data/liljoker-thread-out.jpg", &img);
+	salvar_imagem("data/joker-thread-out.jpg", &img);
   	liberar_imagem(&img);
 	
 	return 0;

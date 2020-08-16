@@ -53,7 +53,7 @@ int main() {
 	float *shared_r, *shared_g, *shared_b;
 
 	imagem img;
- 	img = abrir_imagem("data/liljoker.jpg");
+ 	img = abrir_imagem("data/joker.jpg");
  	int a, x, y;
 
   	x=img.width;
@@ -93,7 +93,7 @@ int main() {
   			img.b[a]=shared_b[a];
   		}
 		//Libera a imagem
-		salvar_imagem("data/liljoker-process-out.jpg", &img);
+		salvar_imagem("data/joker-process-out.jpg", &img);
   		liberar_imagem(&img);
 	}
 	return 0;

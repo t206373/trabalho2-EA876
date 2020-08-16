@@ -18,8 +18,8 @@ void blur (float *matriz, float *nova, int comeco_i, int fim_i, int comeco_j, in
 
 int main(){
 	imagem img, nova;
-	img = abrir_imagem("data/liljoker.jpg");
-	nova = abrir_imagem("data/liljoker.jpg");
+	img = abrir_imagem("data/joker.jpg");
+	nova = abrir_imagem("data/joker.jpg");
 	int fim_i, fim_j, comeco_i, comeco_j;
 	int i, j, x, y, N;
 	  
@@ -53,7 +53,7 @@ int main(){
 	  }
 	}
 	//Libera a imagem nova
-	salvar_imagem("data/liljoker-out.jpg", &nova);
+	salvar_imagem("data/joker-out.jpg", &nova);
 	liberar_imagem(&img);
 	liberar_imagem(&nova);
 	return 0;
